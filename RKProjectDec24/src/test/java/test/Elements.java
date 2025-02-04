@@ -39,6 +39,10 @@ public class Elements {
 		driver.findElement(RelativeLocator.with(By.tagName("button")).below(Password)).click();
 		
 		//driver.findElement(RelativeLocator.with(By.name(null)).toRightOf(Password));
+		//WebElement emailLocator = (RelativeLocator.with(By.tagName("input")).above(By.id("password"));
+	    //WebElement cancelLocator = (RelativeLocator.with(By.tagName("button")).toLeftOf(By.id("submit"));
+		//WebElement submitLocator = (RelativeLocator.with(By.tagName("button")).toRightOf(By.id("cancel"));
+		//WebElement emailLocator = (RelativeLocator.with(By.tagName("input")).near(By.id("lbl-email"));
 		
 		Thread.sleep(3000);
 		driver.quit();

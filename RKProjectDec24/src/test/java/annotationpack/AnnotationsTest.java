@@ -32,9 +32,8 @@ public class AnnotationsTest {
 			System.out.println("Url hit");
 	  }
 	  @BeforeTest
-	  public void teardown() {
-		  driver.quit();
-		  System.out.println("browser closed");
+	  public void beforeTest() {
+		  System.out.println("beforeTest");
 	  }
 	  @BeforeClass
 	  public void beforeClass() {
@@ -67,6 +66,8 @@ public class AnnotationsTest {
   }
   @AfterSuite
   public void afterSuite() {
+	  driver.quit();
+	  System.out.println("browser closed");
 	  System.out.println("afterSuite");
   }
 

@@ -8,7 +8,7 @@ public class FibonacciSeries {
 	void test() {
 		
 		int a=0 ,b=1 ,count=10;
-		System.out.print(a +" " +b+" ");
+     	System.out.print(a +" " +b+" ");
 		
 		
 		for(int i=2; i<=count; i++) {

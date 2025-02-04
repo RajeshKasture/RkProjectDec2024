@@ -24,7 +24,7 @@ public class DynamicWebElement {
 		LoginBtn.click();
 		System.out.println("Clicked on Login Btn by using Text");
 		
-		//By using contaiins 
+		//By using contains 
 	    WebElement LoginBtn1 = driver.findElement(By.xpath("//button[contains(@class,'_42ft _4jy0 _52e0 _4jy6 _4jy1 selected')]"));
 	    LoginBtn1.click();
 		System.out.println("Clicked on Login Btn by using contaiins");
@@ -48,7 +48,6 @@ public class DynamicWebElement {
 		WebElement LoginBtn5 = driver.findElement(By.cssSelector("#loginbutton"));
 		LoginBtn5.click();
 		System.out.println("Clicked on Login Btn by using cssSelector ID");
-	
 		
 		driver.quit();
 		System.out.println("Browser closed");

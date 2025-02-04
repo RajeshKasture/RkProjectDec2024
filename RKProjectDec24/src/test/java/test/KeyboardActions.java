@@ -36,6 +36,8 @@ public class KeyboardActions {
 		 Action keydown= act.keyDown(Keys.CONTROL).sendKeys("a").build();
 		 keydown.perform();
 		 
+		 
+		 
 		 Thread.sleep(2000);
 			driver.quit();
 	        System.out.println("Browser CLosed");

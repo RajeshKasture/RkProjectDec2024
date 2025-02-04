@@ -26,6 +26,7 @@ public class Assertions {
         String ExpetcedTitle = "STORE";
         String ActualTitle = driver.getTitle();
       
+
         Assert.assertEquals(ActualTitle,ExpetcedTitle);
         System.out.println("Assertion verify");
 	

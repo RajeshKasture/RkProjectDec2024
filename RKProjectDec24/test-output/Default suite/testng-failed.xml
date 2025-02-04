@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.Assertions">
+      <class name="crossBrowser.CrossBrowserTest">
         <methods>
-          <include name="test"/>
+          <include name="teardown"/>
+          <include name="Test"/>
+          <include name="intialize"/>
         </methods>
-      </class> <!-- test.Assertions -->
+      </class> <!-- crossBrowser.CrossBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

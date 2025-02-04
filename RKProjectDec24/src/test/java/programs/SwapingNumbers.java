@@ -31,4 +31,6 @@ public class SwapingNumbers {
 			System.out.println("After swapping Value of m="+m+" & Value of n="+n);
 
 		}
-}
+		
+		
+		}

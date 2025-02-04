@@ -33,7 +33,7 @@ public class WebElementDemo {
 		
 		// Find Element
 		WebElement Searchbox = driver.findElement(By.name("q"));
-		Searchbox.sendKeys("Selenium" + Keys.ENTER);
+		Searchbox.sendKeys("Selenium" + Keys.ENTER); 
 		 System.out.println("Searched selenium");
 		
 //		WebElement Searchbtn =  driver.findElement(By.name("btnK"));
