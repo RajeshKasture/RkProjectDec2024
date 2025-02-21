@@ -1,34 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-04T10:25:22 IST" name="GroupSuite" finished-at="2025-02-04T10:25:22 IST" duration-ms="71">
+  <suite started-at="2025-02-05T13:32:49 IST" name="Default suite" finished-at="2025-02-05T13:32:49 IST" duration-ms="163">
     <groups>
-      <group name="SmokeTest">
-        <method signature="Car_Loan.APILoginCarLoan()[pri:0, instance:groupingpack.Car_Loan@7cc0cdad]" name="APILoginCarLoan" class="groupingpack.Car_Loan"/>
-        <method signature="Home_loan.MobileLoginHomeLoan()[pri:0, instance:groupingpack.Home_loan@7c7b252e]" name="MobileLoginHomeLoan" class="groupingpack.Home_loan"/>
-        <method signature="Personal_loan.WebLoginPersonalLoan()[pri:0, instance:groupingpack.Personal_loan@4562e04d]" name="WebLoginPersonalLoan" class="groupingpack.Personal_loan"/>
-      </group> <!-- SmokeTest -->
     </groups>
-    <test started-at="2025-02-04T10:25:22 IST" name="Test" finished-at="2025-02-04T10:25:22 IST" duration-ms="71">
-      <class name="groupingpack.Personal_loan">
-        <test-method signature="WebLoginPersonalLoan()[pri:0, instance:groupingpack.Personal_loan@4562e04d]" started-at="2025-02-04T10:25:22 IST" name="WebLoginPersonalLoan" finished-at="2025-02-04T10:25:22 IST" duration-ms="14" status="PASS">
+    <test started-at="2025-02-05T13:32:49 IST" name="Default test" finished-at="2025-02-05T13:32:49 IST" duration-ms="163">
+      <class name="programs.FibonacciSeries">
+        <test-method signature="test()[pri:0, instance:programs.FibonacciSeries@6aeb35e6]" started-at="2025-02-05T13:32:49 IST" name="test" finished-at="2025-02-05T13:32:49 IST" duration-ms="62" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- WebLoginPersonalLoan -->
-      </class> <!-- groupingpack.Personal_loan -->
-      <class name="groupingpack.Car_Loan">
-        <test-method signature="APILoginCarLoan()[pri:0, instance:groupingpack.Car_Loan@7cc0cdad]" started-at="2025-02-04T10:25:22 IST" name="APILoginCarLoan" finished-at="2025-02-04T10:25:22 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- APILoginCarLoan -->
-      </class> <!-- groupingpack.Car_Loan -->
-      <class name="groupingpack.Home_loan">
-        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:groupingpack.Home_loan@7c7b252e]" started-at="2025-02-04T10:25:22 IST" name="MobileLoginHomeLoan" finished-at="2025-02-04T10:25:22 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- MobileLoginHomeLoan -->
-      </class> <!-- groupingpack.Home_loan -->
-    </test> <!-- Test -->
-  </suite> <!-- GroupSuite -->
+        </test-method> <!-- test -->
+      </class> <!-- programs.FibonacciSeries -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

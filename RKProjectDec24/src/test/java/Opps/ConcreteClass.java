@@ -6,5 +6,8 @@ public class ConcreteClass {
 	    {
 		  AbstractClassA obj  = new AbstractClassB(); // Car object =>contents of Honda
 	        obj.stop(); // call the method
+	        obj.Test1("RAjesh");
+	        obj.Test2(3);
+	        obj.Test3();
 	    }
 }

@@ -5,6 +5,7 @@ public class PrimeNumbers {
 	public static void main(String[] args) {
 		int counter=0;
 		int count =45;
+		int c=0;
 		int n= 43;
 	for (int i=1; i<count; i++) {
 	
@@ -16,6 +17,7 @@ public class PrimeNumbers {
 	if(counter==2)
 	{
 		System.out.println("Prime number");
+		
 	}
 		else
 		{System.out.println("Not a prime number");}

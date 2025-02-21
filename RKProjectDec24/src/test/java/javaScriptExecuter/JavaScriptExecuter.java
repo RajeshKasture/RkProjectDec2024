@@ -69,7 +69,7 @@ public class JavaScriptExecuter {
 		JavascriptExecutor js6 = (JavascriptExecutor)driver;
 		 js6.executeScript("window.scrollBy(0,150)");
 
-//			Example 7. Click on Element		 
+//			Example 7. Click on Element		 `
 		  JavascriptExecutor js7 = (JavascriptExecutor)driver;
 	       js7.executeScript("arguments[0].click();", element);
 

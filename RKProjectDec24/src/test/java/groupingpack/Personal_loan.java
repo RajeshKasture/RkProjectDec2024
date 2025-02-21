@@ -13,7 +13,7 @@ public class Personal_loan {
 	 {  
 	     System.out.println("Mobile Login Personal Loan");  
 	 }  
-	 @Test  
+	 @Test
 	 public void APILoginPersonalLoan()  
 	 {  
 	     System.out.println("API Login Personal Loan");  
