@@ -35,7 +35,7 @@ public class ExpliciteWait {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
 		// Use Explicit Wait to wait for a specific condition
-		wait.until(ExpectedConditions.visibilityOf(Home));
+		wait.until(ExpectedConditions.visibilityOf(Home)); 
 		
 		driver.quit();
 		System.out.println("Bowser closed");

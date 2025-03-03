@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-05T13:32:49 IST" name="Default suite" finished-at="2025-02-05T13:32:49 IST" duration-ms="163">
+  <suite started-at="2025-03-03T13:06:59 IST" name="Default suite" finished-at="2025-03-03T13:07:22 IST" duration-ms="22827">
     <groups>
     </groups>
-    <test started-at="2025-02-05T13:32:49 IST" name="Default test" finished-at="2025-02-05T13:32:49 IST" duration-ms="163">
-      <class name="programs.FibonacciSeries">
-        <test-method signature="test()[pri:0, instance:programs.FibonacciSeries@6aeb35e6]" started-at="2025-02-05T13:32:49 IST" name="test" finished-at="2025-02-05T13:32:49 IST" duration-ms="62" status="PASS">
+    <test started-at="2025-03-03T13:06:59 IST" name="Default test" finished-at="2025-03-03T13:07:22 IST" duration-ms="22827">
+      <class name="test.WindowHandles">
+        <test-method signature="Test()[pri:0, instance:test.WindowHandles@38d8f54a]" started-at="2025-03-03T13:06:59 IST" name="Test" finished-at="2025-03-03T13:07:22 IST" duration-ms="22755" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- programs.FibonacciSeries -->
+        </test-method> <!-- Test -->
+      </class> <!-- test.WindowHandles -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

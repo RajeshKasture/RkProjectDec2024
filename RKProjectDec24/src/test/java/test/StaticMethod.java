@@ -8,6 +8,8 @@ public class StaticMethod {
 		StaticMethod s = new StaticMethod(2);
 	
 		StaticMethod s1 = new StaticMethod("Rajesh");
+		StaticMethod s2 = new StaticMethod();
+
 	}
 	public static void test1()
 	{
@@ -21,6 +23,9 @@ public class StaticMethod {
 	{
 		System.out.println("Constructor string");
 	}
-	
+	StaticMethod()
+	{
+		System.out.println("Without parameter constructor");
+	}	
 
 }

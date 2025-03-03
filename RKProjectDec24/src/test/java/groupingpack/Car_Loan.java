@@ -8,7 +8,7 @@ public class Car_Loan {
 	{  
 	System.out.println("Web Login Home Loan");  
 	}  
-	@Test  
+	@Test (groups= {"Regression"})
 	public void MobileLoginCarLoan()  
 	{  
 	System.out.println("Mobile Login Home Loan");  

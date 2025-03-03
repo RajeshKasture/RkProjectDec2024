@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="crossBrowser.CrossBrowserTest">
+      <class name="retryAnalyzerPack.SampleTest">
         <methods>
-          <include name="teardown"/>
-          <include name="Test"/>
-          <include name="intialize"/>
+          <include name="testRetryLogic"/>
         </methods>
-      </class> <!-- crossBrowser.CrossBrowserTest -->
+      </class> <!-- retryAnalyzerPack.SampleTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
